@@ -1,0 +1,14 @@
+{
+  "name": "gnip-vue2-lazy-load",
+  "version": "1.2.1",
+  "description": "用于vue2图片懒加载使用,通过指令实现",
+  "main": "index.js",
+  "keywords": [
+    "懒加载",
+    "vue2",
+    "图片懒加载"
+  ],
+  "author": "gnip",
+  "license": "ISC",
+  "dependencies": {}
+}

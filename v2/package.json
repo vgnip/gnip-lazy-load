@@ -1,0 +1,23 @@
+{
+  "name": "d-vue2-lazy-load",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:package": "vue-cli-service build --target lib --name d-vue2-lazy-load ./src/entrance.js --inline-vue"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "core-js": "^3.6.5",
+    "express": "^4.17.3",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
